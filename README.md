@@ -12,5 +12,5 @@ https://github.com/MatheusForstner/frontend-imers-o/assets/71892466/a1e2b696-896
 </p>
 
 <div>
-  
+  <p>#ImersãoFrontEnd e #Alura</p>
 </div>
