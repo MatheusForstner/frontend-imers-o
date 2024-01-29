@@ -1,0 +1,358 @@
+.main-container{
+    max-width: 80vw;
+    height: 100vh;
+    margin-left: 320px;
+    margin-right: 56px;
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #d1d6ff;
+    padding: 12px;
+  }
+  
+  .header__navigation .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .header__navigation .navigation .arrow-left {
+    margin-right: 1.25rem;
+  }
+  
+  .arrow-left,
+  .arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color:var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .header__login {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__search {
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+    background-color: #7d25ff;
+    color: #ffffff;
+    border-radius: 500px;
+    border: 1px solid transparent;
+  }
+  
+  .header__search img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+  }
+
+  .header_input{
+    color: #ffffff;
+  }
+  
+  .header__search input {
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0 12px;
+    color: #ffffff;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    white-space: nowrap;
+    outline: none;
+  }
+  
+  .header__login .subscribe {
+    color: #7d25ff;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #d1d6ff;
+    margin-right: 32px;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .header__login .login {
+    color: #ffffff;
+    background-color: #7d25ff;
+    width: 100px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+    border: 0;
+    cursor: pointer;
+  }
+
+  .header__login .login:hover{
+    background-color: #445aff; 
+  }
+
+  .header__login .subscribe:hover {
+    background-color: #7d25ff;
+    color: #ffffff;
+  }
+
+  .playlist-container {
+    height: 68vh;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #d1d6ff;
+  }
+  
+  .playlist {
+    margin: 24px;
+  }
+  
+  .playlist #greeting {
+    color: #7d25ff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .playlist .session {
+    color: #7d25ff;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  /* SCROLL */
+  .offer__scroll-container {
+    max-height: 50vh;
+    margin: 24px;
+    overflow-y: auto;
+  }
+  
+  .offer__scroll-container::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  .offer__scroll-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  /* FIM SCROLL */
+  
+  .offer__list-item {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+    gap: 16px;
+    margin-bottom: 16px;
+  
+    /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
+    display: grid;
+    gap: 16px;
+    grid-gap: 32px;
+    margin: 0 auto;
+  }
+  
+  .cards {
+    position: relative; 
+    width: 220px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+
+  .cards:hover{
+    transform: scale(0.9, 0.9);
+  }
+  
+  .cards span {
+    padding: 16px;
+    position: absolute;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  /* COLOR CARDS */
+  .card1 {
+    background: linear-gradient(to right, #7d25ff, #445aff);
+  }
+  .card2 {
+    background: linear-gradient(to right, #7d25ff, #445aff);
+  }
+  .card3 {
+    background: linear-gradient(to right, #7d25ff, #445aff);
+  }
+  .card4 {
+    background: linear-gradient(to right, #7d25ff, #445aff);
+  }
+  .card5 {
+    background: linear-gradient(to right, #7d25ff, #445aff);
+  }
+  .card6 {
+    background: linear-gradient(to right, #7d25ff, #445aff);
+  }
+  .card7 {
+    background: linear-gradient(to right, #7d25ff, #445aff);
+  }
+  .card8 {
+    background: linear-gradient(to right, #7d25ff, #445aff);
+  }
+  .card9 {
+    background: linear-gradient(to right, #7d25ff, #445aff);
+  }
+  .card10 {
+    background: linear-gradient(to right, #7d25ff, #445aff);
+  }
+  .card11 {
+    background: linear-gradient(to right, #7d25ff, #445aff);
+  }
+  .card12 {
+    background: linear-gradient(to right, #7d25ff, #445aff);
+  }
+  .card13 {
+    background: linear-gradient(to right, #7d25ff, #445aff);
+  }
+  .card14 {
+    background: linear-gradient(to right, #7d25ff, #445aff);
+  }
+  .card15 {
+    background: linear-gradient(to right, #7d25ff, #445aff);
+  }
+  /* FIM COLOR CARDS */
+  
+  .offer__list-item img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: 107px;
+    transform: rotate(25deg) translate(18%, -2%);
+  }
+  
+  /* CARD ARTISTA */
+  
+  .artist {
+    --column-count: 5;
+    --grid-gap: 24px;
+    --min-container-width: 372px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .grid-container {
+    grid-gap:24px;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    min-width: 767px;
+  }
+  
+  .artist-card {
+    background: #7d25ff;
+    border-radius: 8px;
+    -ms-flex: 1;
+    flex: 1;
+    isolation: isolate;
+    padding: 16px;
+    position: relative;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .artist-card:hover {
+    background-color: #445aff;
+  }
+  
+  .card-img {
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  .artist-img {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .card-text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-height: 62px;
+  }
+  
+  .card-text a {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  
+  .artist-name {
+    box-sizing: border-box;
+    margin-block: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    padding-block-end: 8px;
+  }
+  
+  .artist-categorie {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+  
+  .play {
+    position: relative;
+  }
+  
+  .play .fa-heart {
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 120px;
+    padding: 18px;
+    background-color: #cc0d0d;
+    border-radius: 100%;
+    font-size: 14px;
+    opacity: 0;
+    transition: all ease 0.4s;
+  }
+  
+  .artist-card:hover .play .fa-heart {
+    opacity: 1;
+    transform: translateY(-20px);
+  }
+  
+  .play .fa-heart:hover {
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  #result-artist {
+    padding: 20px 40px;
+  }
+  /* FIM CARD ARTISTA */
