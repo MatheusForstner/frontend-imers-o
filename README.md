@@ -1,8 +1,6 @@
+<h1>Front-end Imersão Alura</h1>
 
-
-
-https://github.com/MatheusForstner/frontend-imers-o/assets/71892466/0ca74e52-e95e-48bc-bba4-299615b3eeaf
-
+https://github.com/MatheusForstner/frontend-imers-o/assets/71892466/a1e2b696-896e-4f40-b31d-68d3e6340bdb
 
 <p align="center">
 <img src="https://img.shields.io/github/license/ISS2718/SpotClone"/>
