@@ -1,5 +1,5 @@
 <h1>Front-end Imersão Alura</h1>
-
+#ImersãoFrontEnd e #Alura
 https://github.com/MatheusForstner/frontend-imers-o/assets/71892466/a1e2b696-896e-4f40-b31d-68d3e6340bdb
 
 <p align="center">
@@ -10,7 +10,3 @@ https://github.com/MatheusForstner/frontend-imers-o/assets/71892466/a1e2b696-896
 <img alt="Static Badge" src="https://img.shields.io/badge/Linkedn-passing?style=flat&logo=linkedin&logoColor=white&color=blue&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmatheus-forstner-larangeiro-2a63901a0%2F">
 <img alt="GitHub followers" src="https://img.shields.io/github/followers/MatheusForstner">
 </p>
-
-<div>
-  <p>#ImersãoFrontEnd e #Alura</p>
-</div>
